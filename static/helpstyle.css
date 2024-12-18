@@ -42,11 +42,12 @@ label {
     font-weight: bold;
 }
 
-input[type="text"] {
+select {
     margin-bottom: 15px;
     padding: 10px;
     border: 1px solid #ddd;
     border-radius: 4px;
+    font-size: 15px;
 }
 
 button {
@@ -122,7 +123,6 @@ h2 {
 }
 
 
-/* Footer */
 .footer {
     text-align: center;
     padding: 20px 0;
@@ -130,4 +130,8 @@ h2 {
     color: #ffffff;
     font-size: 0.9rem;
     border-top: 1px solid #eeeeee;
+    margin-top: auto; /* Pushes the footer to the bottom */
+    width: 100%;
+    position: fixed;
+    bottom: 0;
 }
